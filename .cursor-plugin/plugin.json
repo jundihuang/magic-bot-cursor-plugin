@@ -1,0 +1,31 @@
+{
+  "name": "magic-bot",
+  "displayName": "Magic Bot",
+  "description": "Use Magic Bot / \u9b54\u5076 from Cursor: list available bots, install a bot only when you ask, check your wallet, and review usage.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Beansmile",
+    "email": "noreply@beansmile.com"
+  },
+  "homepage": "https://bots.beansmile.ai",
+  "license": "MIT",
+  "keywords": [
+    "magic-bot",
+    "bots",
+    "ecommerce",
+    "mcp",
+    "seller-tools"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BEANKIT_API_KEY": {
+        "type": "string",
+        "title": "Magic Bot account-level API key",
+        "description": "Create an account-level API key in the Magic Bot console, then enter it here through Cursor's Plugins -> Configure flow. Never paste the key into chat."
+      }
+    }
+  }
+}
