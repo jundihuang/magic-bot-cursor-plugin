@@ -1,7 +1,7 @@
 # Magic Bot Cursor Plugin
 
 Magic Bot / 魔偶 connects Cursor to your Magic Bot account through the hosted MCP
-endpoint at `https://bots.beansmile.ai/mcp`.
+endpoint at `https://magicbot.beansmile.ai/mcp`.
 
 This repository is the **public** Cursor Plugin package for Magic Bot / 魔偶.
 Install from the Cursor Marketplace once listed, or load this repo as a local / GitHub plugin.
@@ -22,9 +22,9 @@ Application, or charge your account by itself.
 ## Requirements
 
 - A Magic Bot account. Create one at
-  <https://bots.beansmile.ai/register>.
+  <https://magicbot.beansmile.ai/register>.
 - An **account-level** API key from the Magic Bot console at
-  <https://bots.beansmile.ai/console>.
+  <https://magicbot.beansmile.ai/console>.
 - Cursor with Cursor Plugin support.
 
 A bot-bound key cannot use account-wide tools such as the bot catalog, wallet,
@@ -32,7 +32,7 @@ ledger, or install. Create an account-level key instead.
 
 ## Create the account-level API key
 
-1. Sign in at <https://bots.beansmile.ai/console>.
+1. Sign in at <https://magicbot.beansmile.ai/console>.
 2. Open the **API keys** section.
 3. Leave key access on **All installed bots (account-level)**.
 4. Click **Generate API key** and copy the key once while it is shown.
@@ -81,7 +81,7 @@ plugins/magic-bot/
 ```
 
 The server id is `magic-bot` and the MCP URL is
-`https://bots.beansmile.ai/mcp`. The Authorization header is populated from
+`https://magicbot.beansmile.ai/mcp`. The Authorization header is populated from
 `${BEANKIT_API_KEY}`.
 
 The plugin mark is Jayce's official 2026-11-08 hex pick: a muted sage-green
@@ -93,7 +93,7 @@ uses it directly as `assets/logo.png`.
 
 # Magic Bot Cursor 插件（中文）
 
-Magic Bot / 魔偶通过 `https://bots.beansmile.ai/mcp` 把 Cursor 连接到你的
+Magic Bot / 魔偶通过 `https://magicbot.beansmile.ai/mcp` 把 Cursor 连接到你的
 Magic Bot 账户。
 
 本目录是私有 `beankit` 仓库中的分发源，是一个完整的单插件包，不是公开市场
@@ -112,9 +112,9 @@ Magic Bot 账户。
 
 ## 使用前准备
 
-- 一个 Magic Bot 账户：<https://bots.beansmile.ai/register>。
+- 一个 Magic Bot 账户：<https://magicbot.beansmile.ai/register>。
 - 一个在 Magic Bot 控制台创建的**账户级** API 密钥：
-  <https://bots.beansmile.ai/console>。
+  <https://magicbot.beansmile.ai/console>。
 - 支持 Cursor Plugin 的 Cursor 客户端。
 
 bot 级密钥不能使用账户级的 bot 列表、钱包、使用记录或开通工具。请创建账户级
@@ -122,7 +122,7 @@ bot 级密钥不能使用账户级的 bot 列表、钱包、使用记录或开�
 
 ## 创建账户级 API 密钥
 
-1. 登录 <https://bots.beansmile.ai/console>。
+1. 登录 <https://magicbot.beansmile.ai/console>。
 2. 打开 **API keys / API 密钥** 区域。
 3. 将密钥访问范围保留为 **账户密钥（全部已安装 bot）**。
 4. 点击 **生成 API Key / Generate API key**，并在显示时立即复制一次。
@@ -167,7 +167,7 @@ Configure 之前工具不可用。
 
 ## One-click MCP (while Marketplace review is pending)
 
-1. Create an account and an **account-level** API key at https://bots.beansmile.ai/console
+1. Create an account and an **account-level** API key at https://magicbot.beansmile.ai/console
 2. Export the key in your shell: `export BEANKIT_API_KEY=bk_live_…`
 3. Open this install link (opens Cursor):
    https://cursor.com/install-mcp?name=magic-bot&config=eyJ1cmwiOiJodHRwczovL2JvdHMuYmVhbnNtaWxlLmFpL21jcCIsImhlYWRlcnMiOnsiQXV0aG9yaXphdGlvbiI6IkJlYXJlciAke2VudjpCRUFOS0lUX0FQSV9LRVl9In19

@@ -8,9 +8,9 @@ description: Set up a seller's Magic Bot Cursor Plugin with an account-level key
 ## What to do
 
 If the seller does not have an account, point them to
-`https://bots.beansmile.ai/register` first.
+`https://magicbot.beansmile.ai/register` first.
 
-1. Sign in at <https://bots.beansmile.ai/console>.
+1. Sign in at <https://magicbot.beansmile.ai/console>.
 2. Open the **API keys** section.
 3. Leave key access on **All installed bots (account-level)**.
 4. Click **Generate API key** and copy the key once while it is shown.
@@ -65,9 +65,9 @@ Do not narrate tool names or protocol details while greeting the seller.
 ## 设置步骤
 
 如果卖家还没有账户，请先让对方打开
-`https://bots.beansmile.ai/register`。
+`https://magicbot.beansmile.ai/register`。
 
-1. 登录 <https://bots.beansmile.ai/console>。
+1. 登录 <https://magicbot.beansmile.ai/console>。
 2. 打开 **API keys / API 密钥** 区域。
 3. 将密钥访问范围保留为 **账户密钥（全部已安装 bot）**。
 4. 点击 **生成 API Key / Generate API key**，并在显示时立即复制一次。

@@ -17,8 +17,8 @@ to a public marketplace is out of scope for this change.
 
 - Plugin name: `magic-bot`
 - Display name: `Magic Bot`
-- Public host: `https://bots.beansmile.ai`
-- MCP endpoint: `https://bots.beansmile.ai/mcp`
+- Public host: `https://magicbot.beansmile.ai`
+- MCP endpoint: `https://magicbot.beansmile.ai/mcp`
 - Layout:
   - `plugins/magic-bot/.cursor-plugin/plugin.json`
   - `plugins/magic-bot/mcp.json`
@@ -194,7 +194,7 @@ servers; this HTTP transport is not that stdio schema.
 `plugin.json` declares an optional `BEANKIT_API_KEY` string variable, so
 installation can finish before Configure. `mcp.json` references
 `${BEANKIT_API_KEY}`. The README and onboard skill give exact steps: sign in at
-<https://bots.beansmile.ai/console>, open **API keys**, leave access on
+<https://magicbot.beansmile.ai/console>, open **API keys**, leave access on
 **All installed bots (account-level)** / **账户密钥（全部已安装 bot）**, click
 **Generate API key** / **生成 API Key**, copy once, then paste into
 `BEANKIT_API_KEY` through Cursor → Plugins → Configure. Skills explicitly say
